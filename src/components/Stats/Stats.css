@@ -1,0 +1,101 @@
+.stats{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.stats__container {
+    margin-top: 140px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+.stats__paragraph{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    color: #18216D;
+    max-width: 494px;
+}
+.stats__count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.stats__count-container{
+    margin-right: 90px;
+}
+.stats__count-amount{
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #18216D;
+}
+.stats__count-image-heart{
+    margin: 0 auto;
+    max-width: 80px;
+    min-height: 14px;
+    background:url('../../images/heart.svg');
+}
+.stats__count-image-star {
+    max-width: 85px;
+    min-height: 16px;
+    background:url('../../images/star.svg');
+
+}
+
+.stats__count-description{
+font-family: 'Inter';
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+color: #18216D;
+}
+@media screen and (min-width: 375px) and (max-width:767px){
+    .stats__count{
+        margin: 0 auto;
+        align-content: center;
+    }
+    .stats__count-container{
+        margin: 0 40px;
+    }
+    .stats__container{
+        flex-direction: column;
+        max-width: 330px;
+        margin: 0 auto;
+    }
+    .stats__paragraph{
+        margin-bottom: 22px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        color: #18216D;
+
+    }
+    .stats__count-amount{
+        font-size: 24px;
+        line-height: 14px;
+    }
+    .stats__count-description{
+        font-size: 8px;
+        line-height: 18px;
+    }
+    .stats__count-image-heart,.stats__count-image-star{
+        margin: 0;
+        background-repeat: repeat-x;
+        background-size: 8px;
+        max-width: 39px;
+    }
+}

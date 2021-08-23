@@ -1,0 +1,99 @@
+.header{
+    margin: 25px 0 52px;
+    padding: 0;
+    max-width: 100%;
+}
+.header__logo{
+    background-image:url('../../images/logo.svg');
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 114px;
+    min-height: 32px;
+}
+.header__container{
+    margin: 0 auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+}
+.header__nav{
+    margin-left: 110px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 507px;
+}
+.header__link{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #18216D;
+    transition: opacity 0.2s linear;
+}
+.header__link:hover{
+    opacity: 0.6;
+}
+.header__auth{
+}
+
+.header__button{
+    margin-left: 45px;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background:#18216D;
+    border: 1px solid #18216D;
+    width: 136px;
+    min-height: 52px;
+    transition: opacity 0.5s linear;
+}
+.header__logo-mobile{
+    display: none;
+    background-image:url('../../images/logo.svg');
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 114px;
+    min-height: 32px;
+}
+.header__button:hover{
+    opacity: 0.8;
+}   
+.header__burger-menu{
+    display: none;
+    background:url('../../images//burger.svg') no-repeat;
+}
+
+@media screen and (min-width: 375px) and (max-width:882px){
+    .header__container{
+        max-width:90%;
+    }
+    .header__nav{
+        display: none;
+    }
+    .header__auth{
+        display: none;
+    }
+    .header__logo-mobile{
+        display: block;
+    }
+    .header__burger-menu{
+        display: block;
+        min-height: 12px;
+        width: 28px;
+        border: none;
+        transition: opacity 0.2s linear;
+    }
+    .header__burger-menu:hover{
+        transition: 0.8;
+    }
+}

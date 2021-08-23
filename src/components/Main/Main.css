@@ -1,0 +1,106 @@
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+.main__container{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+.main__info{
+    max-width: 498px;
+    min-height: 518px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+}
+.main__title{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    color: #18216D;
+}
+.main__paragraph{
+    margin: 0;
+    padding: 0;
+    margin-top: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 28px;
+    color: #18216D;
+}
+.main__button{
+    margin-top: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #18216D;
+    border:none;
+    background: #00ECD0;
+    box-sizing: border-box;
+    padding: 23px 37px;
+    max-width: 180px;
+    transition: opacity 0.2 linear;
+}
+.main__button:hover{
+    opacity: 0.8;
+}
+.main__image{
+    background: url('../../images/background.svg');
+    min-height: 518px;
+    max-width: 786px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+@media screen and (min-width: 375px) and (max-width:767px){
+    .main__container{
+        flex-direction: column;
+        align-items:center;
+
+    }
+    .main__image{
+        margin: 40px 0 55px;
+        position: relative;
+        background:url('../../images/mobileBG.svg');
+        width: 325px;
+        min-height: 300px;
+    }
+    .main__title{
+        font-family: 'Inter';
+        margin: 44px 0 0;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 27px;
+        text-align: center;
+        color: #18216D;
+    }
+    .main__paragraph{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: #18216D;
+    }
+    .main__info{
+        min-height: auto;
+        align-items: center;
+    }
+}

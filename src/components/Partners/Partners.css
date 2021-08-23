@@ -1,0 +1,32 @@
+.partners{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.partners__list{
+    margin: 50px 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.partners__item{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width:375px) and (max-width:767px){
+    .partners__image{
+    max-width: 50px;
+    min-height: 16px;
+    }
+    .partners__image-walmart,.partners__image-fedex {
+        display: none;
+    }
+    .partners__list{
+        justify-content: space-around;
+    }
+
+}
