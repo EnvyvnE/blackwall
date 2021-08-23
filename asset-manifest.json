@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/blackwall/static/css/main.2af4d22c.chunk.css",
+    "main.js": "/blackwall/static/js/main.1f27fdd7.chunk.js",
+    "main.js.map": "/blackwall/static/js/main.1f27fdd7.chunk.js.map",
+    "runtime-main.js": "/blackwall/static/js/runtime-main.78798b43.js",
+    "runtime-main.js.map": "/blackwall/static/js/runtime-main.78798b43.js.map",
+    "static/js/2.c6323f00.chunk.js": "/blackwall/static/js/2.c6323f00.chunk.js",
+    "static/js/2.c6323f00.chunk.js.map": "/blackwall/static/js/2.c6323f00.chunk.js.map",
+    "static/js/3.80e45f39.chunk.js": "/blackwall/static/js/3.80e45f39.chunk.js",
+    "static/js/3.80e45f39.chunk.js.map": "/blackwall/static/js/3.80e45f39.chunk.js.map",
+    "index.html": "/blackwall/index.html",
+    "static/css/main.2af4d22c.chunk.css.map": "/blackwall/static/css/main.2af4d22c.chunk.css.map",
+    "static/js/2.c6323f00.chunk.js.LICENSE.txt": "/blackwall/static/js/2.c6323f00.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/blackwall/static/media/Inter-Regular.e148c4a1.woff",
+    "static/media/airbnb.f3bce9e0.svg": "/blackwall/static/media/airbnb.f3bce9e0.svg",
+    "static/media/Main.css": "/blackwall/static/media/mobileBG.93220550.svg",
+    "static/media/Header.css": "/blackwall/static/media/logo.7a28ad00.svg",
+    "static/media/fedex.d5356dac.svg": "/blackwall/static/media/fedex.d5356dac.svg",
+    "static/media/google.c694baca.svg": "/blackwall/static/media/google.c694baca.svg",
+    "static/media/Stats.css": "/blackwall/static/media/star.9ca0da12.svg",
+    "static/media/hubspot.92cf565c.svg": "/blackwall/static/media/hubspot.92cf565c.svg",
+    "static/media/microsoft.a14b9a5f.svg": "/blackwall/static/media/microsoft.a14b9a5f.svg",
+    "static/media/price.0bc31a7f.svg": "/blackwall/static/media/price.0bc31a7f.svg",
+    "static/media/qual1.5ae655c4.svg": "/blackwall/static/media/qual1.5ae655c4.svg",
+    "static/media/qual2.d5f64e48.svg": "/blackwall/static/media/qual2.d5f64e48.svg",
+    "static/media/walmart.9acf5594.svg": "/blackwall/static/media/walmart.9acf5594.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78798b43.js",
+    "static/js/2.c6323f00.chunk.js",
+    "static/css/main.2af4d22c.chunk.css",
+    "static/js/main.1f27fdd7.chunk.js"
+  ]
+}
